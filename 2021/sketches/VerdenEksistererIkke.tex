@@ -1,0 +1,64 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{revy}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[danish]{babel}
+
+\revyname{Matematikrevy}
+\revyyear{2021}
+\version{1.0}
+\eta{$2.5$ minutter}
+\status{Færdig}
+
+\title{Verden eksisterer ikke}
+\author{Rasmus ’16, Nina ’16}
+
+\begin{document}
+\maketitle
+
+\begin{roles}
+\role{X}[Marius] Instruktør
+\role{A}[Stine] Selvsikker, seriøs (og ikke umiddelbart entusiastisk) matematiker.
+\end{roles}
+
+\begin{props}
+\prop{Beamer præsentation}[Person, der skaffer]
+\end{props}
+
+
+\begin{sketch}
+\scene{A kommer ind på scenen, og starter uden videre en beamer-præsentation på storskærm. På det første slide, der dukker op, står der "Sætning. Verden eksisterer ikke." For hver sætning klikkes videre på præsentationen, og den nye sætning dukker op på storskærm.}
+
+\says{A}[Seriøs] Sætning. Verden eksisterer ikke.
+
+\says{A} Bevis:
+
+\says{A} Antag for modstrid, at verden eksisterer. \act{kunstpause}
+
+\says{A} Så findes der mindst en (1) ost.
+
+\says{A} Altså er mængden af oste ikke tom, og oste med huller er en delmængde af mængden af oste.
+
+\says{A} Bemærk, at der i hullerne ikke findes ost.
+
+\says{A} Lad $n > 0$ være antallet af oste med huller.
+
+\says{A} For $n = 1$ findes der ost i form af osten. Samtidig findes der ikke ost i form af hullerne, eller huller i form af ost, hvoraf huller, der ikke er i form af huller, så er ost eller ost med huller eller ikke, hvilket dermed medfører, at hulheden, ostheden, "ost med hul"-heden og "hul med ost"-heden er nødvendig for eksistensen af osten. (trivielt). Altså både findes der og findes der ikke ost.
+
+\says{A} Antag nu, at der for n oste findes ost, og at der ikke findes ost.
+
+\says{A} Tilføj en ost. For denne ost gælder der at der findes ost og ikke ost.
+
+\says{A} Derved findes der for de $n + 1$ oste både ost og ingen ost.
+
+\says{A} Per induktion findes der ost, og der findes ikke ost.
+
+\says{A} Dette er en stor fed modstrid.
+
+\says{A} Altså findes verden ikke. \act{Klikker så der kommer firkant efter beviset}
+
+\scene{Tæppe}
+\end{sketch}
+
+\end{document}
